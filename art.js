@@ -38,8 +38,8 @@ function createArtworks() {
   for (let i = 1; i < 513; i = i * 2) {
     let circle = document.createElement("div");
     circle.classList.add("circle");
-    circle.style.height = `${i}px`;
-    circle.style.width = `${i}px`;
+    circle.style.height = `${i / 2}px`;
+    circle.style.width = `${i / 2}px`;
     document.querySelector("#artwork5").appendChild(circle);
   }
 
